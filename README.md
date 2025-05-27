@@ -1,9 +1,8 @@
-﻿# Click-jacking
-# Clickjacking Detector
+# 🎬 Clickjacking Detector
 &nbsp;
 &nbsp;
 
-The Clickjacking Detector is a machine learning project that utilizes Natural Language Processing (NLP) techniques to identify and classify clickjacking attempts. The goal of this project is to help users recognize potentially harmful web pages and protect themselves from clickjacking attacks. <br>  Sundhir Singh
+Welcome to the **Clickjacking Detector**! This interactive web application is designed to educate users about the risks of clickjacking attacks in a fun and engaging way. Explore a collection of movies while learning how malicious iframes can trick users into performing unintended actions.
 &nbsp;
 &nbsp;
 
@@ -11,17 +10,16 @@ The Clickjacking Detector is a machine learning project that utilizes Natural La
 &nbsp;
 &nbsp;
 
-## **Table of Contents**
+## 🌟 Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Setup and Usage](#setup-and-usage)
-  - [Step 1: Install Dependencies](#step-1-install-dependencies)
-  - [Step 2: Preprocess Data](#step-2-preprocess-data)
-  - [Step 3: Train the Model](#step-3-train-the-model)
-  - [Step 4: Make Predictions](#step-4-make-predictions)
+  - [Step 1: Clone the Repository](#step-1-clone-the-repository)
+  - [Step 2: Open the HTML File](#step-2-open-the-html-file)
 - [How It Works](#how-it-works)
+- [Acknowledgments](#acknowledgments)
 &nbsp;
 &nbsp;
 
@@ -29,35 +27,32 @@ The Clickjacking Detector is a machine learning project that utilizes Natural La
 &nbsp;
 &nbsp;
 
-## Overview
-The Clickjacking Detector employs various machine learning algorithms to classify web pages as clickjacking or legitimate. By preprocessing web page data and extracting relevant features, the model can effectively identify potentially harmful web pages.
+## 📖 Project Overview
+The **Clickjacking Detector** employs HTML, CSS, and JavaScript to create a visually appealing user interface that mimics a movie download site. It features hidden iframes that demonstrate how clickjacking can occur, allowing users to see the potential risks associated with such attacks.
 &nbsp;
 &nbsp;
 
-## Features
-- Preprocessing of web page data to extract relevant features.
-- Implementation of various machine learning algorithms for classification.
-- Evaluation of model performance using metrics such as accuracy, precision, and recall.
-- User-friendly interface for making predictions on new web pages.
+## ✨ Features
+- **Diverse Movie Collection**: Browse through various movie posters with enticing download buttons.
+- **Clickjacking Simulation**: Experience the effects of clickjacking through invisible iframes.
+- **Alert Messages**: Simulate unauthorized transactions with engaging alert messages.
+- **Reveal Hidden Iframes**: A special button to uncover hidden iframes for educational purposes.
 &nbsp;
 &nbsp;
 
-## **Technologies Used**
-- **Python**: Programming language.
-- **Scikit-learn**: Library for machine learning algorithms.
-- **Pandas**: Data manipulation and analysis.
-- **NumPy**: Library for numerical computing.
-- **Flask** (optional): Can be used to deploy the model as a web service.
-- **Pickle**: For saving and loading the trained model.
+## 💻 Technologies Used
+- **HTML**: For structuring the web page.
+- **CSS**: For styling the application and creating an attractive layout.
+- **JavaScript**: For interactivity and simulating clickjacking behavior.
 &nbsp;
 &nbsp;
 
-## Installation
-To run this project, you need to have Python installed on your machine. Follow these steps to set up the project:
+## 🚀 Installation
+To run this project, follow these simple steps:
 &nbsp;
 &nbsp;
 
-1. Clone the repository:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/clickjacking-detector.git
    cd clickjacking-detector
